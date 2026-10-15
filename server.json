@@ -3,8 +3,8 @@
   "name": "io.github.SergiuPogor/curlshot",
   "title": "CurlShot",
   "description": "Screenshots of any public web page as PNG, JPEG, WebP, PDF or a scrolling video.",
-  "version": "1.0.0",
-  "websiteUrl": "https://curlshot.com/docs/guides/ai-agents",
+  "version": "1.0.1",
+  "websiteUrl": "https://curlshot.com/docs/guides/ai-agents?utm_source=mcp-registry&utm_medium=listing&utm_campaign=dist-q4",
   "repository": {
     "url": "https://github.com/SergiuPogor/curlshot-mcp",
     "source": "github"
