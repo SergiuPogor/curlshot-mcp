@@ -131,6 +131,14 @@ gemini extensions install https://github.com/SergiuPogor/curlshot-mcp
 
 The key is stored as the `CURLSHOT_API_KEY` setting and sent as `Authorization: Bearer ...`.
 
+### Agent skill (no MCP)
+
+For agents that use [Agent Skills](https://agentskills.io) instead of MCP, [`skills/curlshot/SKILL.md`](skills/curlshot/SKILL.md) teaches the agent to call the HTTP API directly with `curl`, reading the key from `CURLSHOT_API_KEY`:
+
+```bash
+npx skills add SergiuPogor/curlshot-mcp
+```
+
 ### Other clients
 
 Any client that supports remote servers over streamable HTTP works. Most take a config like this:
