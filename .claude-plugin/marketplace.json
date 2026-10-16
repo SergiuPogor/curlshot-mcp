@@ -1,0 +1,19 @@
+{
+  "name": "curlshot",
+  "owner": {
+    "name": "CurlShot",
+    "url": "https://curlshot.com"
+  },
+  "metadata": {
+    "description": "CurlShot screenshot tools for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "curlshot",
+      "source": "./",
+      "description": "Screenshots of any public web page as PNG, JPEG, WebP, PDF or a scrolling video: the hosted CurlShot MCP server plus an agent skill for the HTTP API.",
+      "version": "1.0.1",
+      "category": "development"
+    }
+  ]
+}

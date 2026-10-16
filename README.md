@@ -53,6 +53,12 @@ claude mcp add --transport http curlshot https://curlshot.com/api/mcp \
   --header "Authorization: Bearer YOUR_API_KEY"
 ```
 
+Or install it as a Claude Code plugin (MCP server plus the agent skill). Set `CURLSHOT_API_KEY` in your environment first; the plugin sends it as the bearer token:
+
+```
+/plugin install curlshot --marketplace SergiuPogor/curlshot-mcp
+```
+
 ### Claude Desktop
 
 Claude Desktop starts local (stdio) servers from its config file, so connect through the [`mcp-remote`](https://www.npmjs.com/package/mcp-remote) proxy. Edit `claude_desktop_config.json` (Settings → Developer → Edit Config):

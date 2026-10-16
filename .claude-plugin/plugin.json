@@ -1,0 +1,13 @@
+{
+  "name": "curlshot",
+  "version": "1.0.1",
+  "description": "Screenshots of any public web page as PNG, JPEG, WebP, PDF or a scrolling video: the hosted CurlShot MCP server plus an agent skill for the HTTP API.",
+  "author": {
+    "name": "CurlShot",
+    "url": "https://curlshot.com"
+  },
+  "homepage": "https://curlshot.com/docs/guides/ai-agents",
+  "repository": "https://github.com/SergiuPogor/curlshot-mcp",
+  "license": "MIT",
+  "keywords": ["screenshot", "web-capture", "pdf", "mcp", "browser"]
+}
