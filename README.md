@@ -121,6 +121,16 @@ Add to `.vscode/mcp.json`. VS Code asks for the key once and stores it securely:
 }
 ```
 
+### Gemini CLI
+
+This repository is also a [Gemini CLI extension](https://geminicli.com/extensions). Install it and enter your API key when asked:
+
+```bash
+gemini extensions install https://github.com/SergiuPogor/curlshot-mcp
+```
+
+The key is stored as the `CURLSHOT_API_KEY` setting and sent as `Authorization: Bearer ...`.
+
 ### Other clients
 
 Any client that supports remote servers over streamable HTTP works. Most take a config like this:

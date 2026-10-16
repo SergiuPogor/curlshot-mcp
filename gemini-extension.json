@@ -1,0 +1,22 @@
+{
+  "name": "curlshot",
+  "version": "1.0.1",
+  "description": "Screenshots of any public web page as PNG, JPEG, WebP, PDF or a scrolling video, from the hosted CurlShot MCP server.",
+  "mcpServers": {
+    "curlshot": {
+      "description": "CurlShot: take_screenshot and list_devices for any public web page.",
+      "httpUrl": "https://curlshot.com/api/mcp",
+      "headers": {
+        "Authorization": "Bearer $CURLSHOT_API_KEY"
+      }
+    }
+  },
+  "settings": [
+    {
+      "name": "CurlShot API key",
+      "description": "Your CurlShot API key. Free key (100 screenshots a month, no card) at https://curlshot.com/register",
+      "envVar": "CURLSHOT_API_KEY",
+      "sensitive": true
+    }
+  ]
+}
