@@ -1,6 +1,6 @@
 {
   "name": "curlshot",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Screenshots of any public web page as PNG, JPEG, WebP, PDF or a scrolling video: the hosted CurlShot MCP server plus an agent skill for the HTTP API.",
   "author": {
     "name": "CurlShot",
