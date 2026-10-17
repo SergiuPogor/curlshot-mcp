@@ -56,7 +56,8 @@ claude mcp add --transport http curlshot https://curlshot.com/api/mcp \
 Or install it as a Claude Code plugin (MCP server plus the agent skill). Set `CURLSHOT_API_KEY` in your environment first; the plugin sends it as the bearer token:
 
 ```
-/plugin install curlshot --marketplace SergiuPogor/curlshot-mcp
+/plugin marketplace add SergiuPogor/curlshot-mcp
+/plugin install curlshot@curlshot
 ```
 
 ### Claude Desktop
